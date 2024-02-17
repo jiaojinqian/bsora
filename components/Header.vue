@@ -1,7 +1,16 @@
 <template>
   <header
     ref="header"
-    class="top-0 w-full text-white transition duration-300 ease-out transform z-50"
+    class="
+      top-0
+      w-full
+      text-white
+      transition
+      duration-300
+      ease-out
+      transform
+      z-50
+    "
     :class="[
       {
         '-translate-y-full': navVisibility.navSticky,
@@ -16,7 +25,15 @@
   >
     <div class="grid-margins flex justify-between items-center h-20">
       <Link
-        class="flex items-center hover:opacity-75 transition-opacity duration-300 ease-in-out mobile-nav-link"
+        class="
+          flex
+          items-center
+          hover:opacity-75
+          transition-opacity
+          duration-300
+          ease-in-out
+          mobile-nav-link
+        "
         :item="{ link: '/', text: 'Homepage (logo)' }"
       >
         <!--
@@ -30,7 +47,7 @@
           class="w-10 h-10 fill-current"
           @click="() => onLinkClick({ link: '/', text: 'Homepage (logo)' })"
         />
-        <span class="pl-2 font-extrabold">Matter Protocol</span>
+        <span class="pl-2 font-extrabold">BlastSora Protocol</span>
       </Link>
       <nav class="hidden md:flex justify-end w-full max-w-lg">
         <Link
@@ -60,12 +77,12 @@ import Link from './Link';
 import Icon from './Icon.vue';
 
 const headerLinks = [
-  { text: 'App', link: 'https://app.matter.services' },
-  { text: 'Github', link: 'https://github.com/merge-dao' },
-  { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
+  { text: 'App', link: 'https://blastsora.xyz' },
+  { text: 'Github', link: 'https://github.com/jiaojinqian/bsora' },
+  // { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
   // { text: 'Team', link: '/team' },
-  { text: 'Blog', link: 'https://mergedao.medium.com' },
+  // { text: 'Blog', link: 'https://mergedao.medium.com' },
   // { text: 'Help', link: '/help' },
 ];
 

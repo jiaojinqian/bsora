@@ -1,7 +1,7 @@
 <template>
   <div>
     <seo-tags
-      :title="content.title + ' | Matter Protocol'"
+      :title="content.title + ' | BlastSora Protocol'"
       :description="content.description"
     />
     <Hero :title="content.title" :description="content.description" />

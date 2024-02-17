@@ -16,11 +16,11 @@
       ©
       <a
         class="text-blueGreenLight hover:underline"
-        href="https://matter.services/"
+        href="http://blastsora.xyz/"
         target="_blank"
         @click="onClick"
       >
-        Matter Protocol
+        BlastSora Protocol
       </a>
       <!-- | Except as
       <a

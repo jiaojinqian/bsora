@@ -6,7 +6,7 @@
     <div class="flex-shrink lg:max-w-lg xl:max-w-xl mb-4 lg:mb-0">
       <h2>Stay informed</h2>
       <p class="mt-2 mr-2">
-        Sign up for the matter protocol Weekly newsletter for the latest on
+        Sign up for the blastsora protocol Weekly newsletter for the latest on
         releases, upcoming developments, community events, and more.
       </p>
     </div>
@@ -37,7 +37,18 @@
               type="submit"
               value="Subscribe"
               name="subscribe"
-              class="p-2 text-white font-semibold bg-blueGreen hover:bg-blueGreenScreen transition duration-300 rounded cursor-pointer w-full"
+              class="
+                p-2
+                text-white
+                font-semibold
+                bg-blueGreen
+                hover:bg-blueGreenScreen
+                transition
+                duration-300
+                rounded
+                cursor-pointer
+                w-full
+              "
             />
           </div>
         </div>

@@ -18,7 +18,7 @@ export default {
   },
   head() {
     return {
-      title: 'Team | Matter Protocol',
+      title: 'Team | BlastSora Protocol',
     };
   },
 };
