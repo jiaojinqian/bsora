@@ -16,7 +16,7 @@
       ©
       <a
         class="text-blueGreenLight hover:underline"
-        href="http://blastsora.xyz/"
+        href="https://blastsora.xyz/"
         target="_blank"
         @click="onClick"
       >

@@ -37,7 +37,7 @@ import { mapState } from 'vuex';
 import SocialLinks from './SocialLinks';
 
 const mobileNavLinks = [
-  { text: 'App', link: 'http://blastsora.xyz' },
+  { text: 'App', link: 'https://blastsora.xyz' },
   { text: 'Github', link: 'https://github.com/jiaojinqian/bsora' },
   // { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
