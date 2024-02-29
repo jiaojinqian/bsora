@@ -11,6 +11,8 @@
         through combination and splitting,
         <br />
         is used to build an orderly, reliable, and complex NFT world
+        <br />
+        Points is comming!
       </h2>
       <div class="flex flex-col sm:flex-row mt-6">
         <Button
